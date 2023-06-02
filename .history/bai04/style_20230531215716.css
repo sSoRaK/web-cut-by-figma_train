@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 1440px;
+  height: 840px;
+  background-color: #000;
+  margin: 0 auto;
+}
+/* header */
+header {
+  width: 1170px;
+  height: 107px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 135px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+}
+.header-logo {
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 634px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+nav {
+  display: flex;
+  gap: 40px;
+}
+ul li a {
+  line-height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.92);
+}
+ul li a:hover {
+  color: #ffd600;
+}
+.btn-cta {
+  width: 138px;
+  height: 43px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 56px;
+  text-align: center;
+}
+.btn-cta button {
+  background-color: transparent;
+  border: none;
+  color: #ffd600;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 43px;
+  cursor: pointer;
+}
+/* xong header */
+/* main (section) */
+/* left content */
+section {
+  margin: 0 135px;
+  display: flex;
+  justify-content: space-between;
+  gap: 130px;
+}
+.left-content {
+  width: 570px;
+}
+.left-content h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 97px;
+  letter-spacing: -0.04em;
+  margin-top: 114px;
+}
+.left-content p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: -0.04em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  gap: 10px;
+}
+.left-btn {
+  width: 277px;
+  height: 62px;
+  background-color: #ffd600;
+  padding: 20px 87px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.right-btn {
+  width: 277px;
+  height: 62px;
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffd600;
+
+  padding: 20px 87px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  border: none;
+}
+.right-btn button {
+  color: #ffd600;
+}
+.left-btn:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffd600;
+}
+.right-btn:hover {
+  background-color: #ffd600;
+  color: black;
+}
+/* xong left-content */
+/* right-img */
+.right-img img {
+  width: 469.6px;
+  height: 504.7px;
+  margin-top: 60px;
+}
+/* right-img */

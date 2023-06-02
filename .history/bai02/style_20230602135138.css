@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-color: #0e0e0e;
+  height: 2400px;
+}
+.container {
+  width: 1367px;
+  background-color: #2c3e50;
+  margin: 0 auto;
+}
+/* header menu */
+header {
+  height: 100px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 155px 0 130px;
+}
+.header-logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+ul li a {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* header menu */
+/* main */
+
+/* block 01 */
+.block01 {
+  /* position: relative; */
+  height: 680px;
+  background-color: #1abc9c;
+  color: #ffffff;
+  text-align: center;
+  padding: 102px 0;
+}
+.block01 img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+}
+.block01 h3 {
+  font-size: 65px;
+}
+.star-line {
+  margin-bottom: 20px;
+}
+.block01 p {
+  font-size: 20px;
+}
+/* block 01 */
+/* block 02 */
+.block02 {
+  height: 852px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 80px 0;
+}
+.block02 h4,
+.block03 h4,
+.block04 h4 {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+/* làm star line */
+.star-line {
+  position: relative;
+  color: #2c3e50;
+  text-align: center;
+}
+.fa-star {
+  font-size: 35px;
+}
+.star-line::before {
+  position: absolute;
+  content: "";
+  width: 110px;
+  height: 5px;
+  bottom: 50%;
+  left: 50%;
+  background-color: #2c3e50;
+  transform: translateX(-133%);
+  border-radius: 10px;
+}
+.star-line::after {
+  position: absolute;
+  content: "";
+  width: 110px;
+  height: 5px;
+  bottom: 50%;
+  right: 50%;
+  background-color: #2c3e50;
+  transform: translateX(134%);
+  border-radius: 10px;
+}
+/* phần image list */
+.img-list {
+  display: grid;
+  grid-template-rows: repeat(2, 240px);
+  grid-template-columns: repeat(3, 330px);
+  gap: 48px;
+  margin: 32px 138px 0 138px;
+}
+.img-list img {
+  width: 330px;
+  height: 240px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+/* block 02 */
+
+/* block 03 */
+.block03 {
+  height: 610px;
+  background-color: #1abc9c;
+  text-align: center;
+  padding: 102px 0;
+}
+.block03 h4 {
+  color: #ffffff;
+}
+.content {
+  display: flex;
+  width: 700px;
+  height: 180px;
+  margin: 0 auto;
+  /* justify-content: flex-start;
+  align-content: start;
+  align-items: start; */
+  column-gap: 50px;
+  color: #ffffff;
+}
+.left-content,
+.right-content {
+  font-size: 18px;
+  line-height: 1.5em;
+  text-align: left;
+}
+/* block 03 */
+
+/* main */

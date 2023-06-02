@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Readex Pro", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 1440px;
+  height: 840px;
+  background-color: #000;
+  /* margin: 0 auto; */
+}
+header {
+  width: 1170px;
+  height: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+nav {
+  display: flex;
+}
